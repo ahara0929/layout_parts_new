@@ -2,4 +2,92 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q7__inner .text_box:first-child {
+  margin-left: 0;
+}
+
+.q7__inner .text_box{
+  float: left;
+  margin-left: 50px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.q7 .text_box {
+  width: 225px;
+}
+
+.main_box {
+  display: table;
+}
+
+.q7 .white_box:first-child {
+  padding-left: 0;
+}
+
+.q7 .white_box {
+  display: table-cell;
+  padding-left: 50px;
+  vertical-align: middle;
+}
+
+.q7 .wrap_box {
+  font-size: 0;
+}
+
+.q7_3_textbox:first-child {
+  margin-left: 0;
+}
+
+.q7_3_textbox {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 225px;
+}
+
+.flex_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.q7_4_textbox {
+  font-size: 16px;
+  width: 225px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.q7_5_wrap {
+  font-size: 0;
+}
+
+.small_box {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.big_box {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.q7_5_textbox {
+  font-size: 16px;
+}
+
 /* 回答はここに書いてね */
